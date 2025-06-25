@@ -2,7 +2,7 @@
 
 - Written in React + Vite, using Firebase realtime database
 
-- For the app to work, you need to insert your own Firebase DB config in `/src/config.js`
+- For the app to work, you need to insert your own Firebase DB config in `/src/config.js` (by default the file will be missing; you need to create it and fill out an object called ENV with the data whose references will be missing in the `/src/logic/hooks.js` file)
 
 
 
