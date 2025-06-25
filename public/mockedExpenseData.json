@@ -1,0 +1,8 @@
+[
+    { "id": 1, "month": "Jan 2025", "expenses": 1200 },
+    { "id": 2, "month": "Feb 2025", "expenses": 900 },
+    { "id": 3, "month": "Mar 2025", "expenses": 1500 },
+    { "id": 4, "month": "Apr 2025", "expenses": 1100 },
+    { "id": 5, "month": "May 2025", "expenses": 1600 },
+    { "id": 6, "month": "Jun 2025", "expenses": 1300 }
+]
