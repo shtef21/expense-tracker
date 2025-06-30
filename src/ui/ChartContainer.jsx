@@ -9,8 +9,7 @@ import { UseDB } from "../logic/hooks";
 import { cummulateExpenses, makeDbExpense } from "../logic/helpers";
 
 export const ChartContainer = () => {
-  // eslint-disable-next-line no-unused-vars
-  const { data: expensesData = [], isFetching, refetch, error } = useExpensesData();
+  const { data: expensesData = [], isFetching, refetch } = useExpensesData();
   const { removeExpenseFromDb, updateExpenseInDb } = UseDB();
   const [ modalOpen, setModalOpen ] = useState(false);
   const cummulatedExpenses = useMemo(() => cummulateExpenses(expensesData), [expensesData]);
@@ -35,7 +34,6 @@ export const ChartContainer = () => {
         <Grid>
           <Typography variant="h4" component="h1">
             Expense tracker app
-            {/* TODO: add Auth to app */}
           </Typography>
         </Grid>
       </Grid>
